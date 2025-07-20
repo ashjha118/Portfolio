@@ -1,0 +1,77 @@
+
+body {
+  background-color: rgb(26, 32, 44);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-img {
+  float: right;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit:cover;
+  border: 3px solid rgb(74, 85, 104);
+  margin: 20px;
+}
+
+.welcome {
+  padding: 20px;
+  background-color: rgb(45, 55, 72);
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 14px;
+  color: rgb(160, 174, 192);
+}
+
+.divider {
+  margin: 30px 0;
+  border-color: rgb(74, 85, 104);
+}
+
+.section {
+  padding: 20px;
+  max-width: 768px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(74, 85, 104);
+  margin-bottom: 10px;
+}
+
+.section p,
+.section ul {
+  color: rgb(226, 232, 240);
+}
+
+.section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.note {
+  color: rgb(160, 174, 192);
+  font-style: italic;
+}
+
+a {
+  color: rgb(99, 179, 237);
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 16px;
+  color: rgb(160, 174, 192);
+  font-size: 14px;
+  margin-top: 32px;
+}
